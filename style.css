@@ -41,3 +41,80 @@ body {
 .header-link:hover, .header-link:focus {
     color: blanchedalmond;
 }
+/* main section */
+.hero {
+  padding: 50px 0;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hero-title {
+    color: rgb(113, 27, 12);
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.hero-text {
+    padding-bottom: 30px;
+}
+/* ingredients for the dough */
+.dough {
+    background-color: rgb(255, 167, 123);
+    padding: 50px 0;
+}
+.dough-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.dough-title {
+    color: brown;
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.dough-list {
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/* styles for the third section */
+.filling {
+    padding: 50px 0;
+}
+.filling-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.filling-title {
+    color: brown;
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.filling-list {
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/* styles for the footer */
+.footer {
+    background-color: rgb(221, 103, 82);
+    padding: 30px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    color: white;
+    font-size: 18px;
+}
+.footer-img {
+    width: 30px;
+    padding-left: 20px;
+}
