@@ -25,6 +25,7 @@ body {
 .header-container {
     justify-content: space-between;
     align-items: center;
+    display: flex;
 }
 .header-img {
     width: 120px;
@@ -34,9 +35,9 @@ body {
 }
 .header-link {
     font-size: 24px;
-    background-color: white;
     font-weight: 700;
     margin-left: 50px;
+    color: white;
 }
 .header-link:hover, .header-link:focus {
     color: blanchedalmond;
@@ -55,6 +56,9 @@ body {
     font-size: 48px;
     font-weight: 700;
     padding-bottom: 50px;
+}
+.hero-img {
+    width: 500px;
 }
 .hero-text {
     padding-bottom: 30px;
@@ -75,31 +79,38 @@ body {
     font-weight: 700;
     padding-bottom: 25px;
 }
+.dough-img {
+    width: 500px;
+}
 .dough-list {
     padding-left: 50px;
     padding-bottom: 25px;
     list-style: disc;
 }
 /* styles for the third section */
-.filling {
+.ingredients {
     padding: 50px 0;
 }
-.filling-container {
+.ingredients-container {
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.filling-title {
+.ingredients-title {
     color: brown;
     font-size: 33px;
     font-weight: 700;
     padding-bottom: 25px;
 }
-.filling-list {
+.ingredients-img {
+    width: 500px;
+}
+.ingredients-list {
     padding-left: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     list-style: disc;
 }
+/* Styles for the fourth section */
 /* styles for the footer */
 .footer {
     background-color: rgb(221, 103, 82);
