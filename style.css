@@ -111,6 +111,23 @@ body {
     list-style: disc;
 }
 /* Styles for the fourth section */
+.my-pizza-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.my-pizza-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.my-pizza-img {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+}
+.my-pizza {
+    background-color: rgb(255, 167, 123);
+}
 /* styles for the footer */
 .footer {
     background-color: rgb(221, 103, 82);
@@ -129,3 +146,69 @@ body {
     width: 30px;
     padding-left: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
