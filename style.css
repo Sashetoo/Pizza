@@ -112,21 +112,29 @@ body {
 }
 /* Styles for the fourth section */
 .my-pizza-container {
-    display: flex;
     align-items: center;
     gap: 50px;
 }
 .my-pizza-title {
     text-align: center;
     margin-bottom: 20px;
+    color:brown;
 }
 .my-pizza-img {
-    margin: 0 auto;
     width: 600px;
-    display: flex;
+    padding: 50px;
 }
 .my-pizza {
     background-color: rgb(255, 167, 123);
+}
+.my-pizza-list {
+    list-style: disc;
+}
+.my-pizza-wrapper {
+    display: flex;
+}
+.my-pizza-wrapper {
+    font-size: 40px;
 }
 /* styles for the footer */
 .footer {
